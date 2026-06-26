@@ -1,0 +1,68 @@
+{
+  "source_input": "C:\\Users\\shahk\\Projects\\Take Home Assignments\\bfsi-reputation-intelligence\\data\\raw\\Dataset.xlsx",
+  "output_csv": "C:\\Users\\shahk\\Projects\\Take Home Assignments\\bfsi-reputation-intelligence\\data\\processed\\classified_mentions.csv",
+  "output_xlsx": "C:\\Users\\shahk\\Projects\\Take Home Assignments\\bfsi-reputation-intelligence\\data\\processed\\classified_mentions.xlsx",
+  "output_parquet": "C:\\Users\\shahk\\Projects\\Take Home Assignments\\bfsi-reputation-intelligence\\data\\processed\\classified_mentions.parquet",
+  "raw_rows": 100,
+  "deduped_rows": 98,
+  "duplicates_removed": 2,
+  "irrelevant_removed": 14,
+  "records_written": 84,
+  "keep_irrelevant": false,
+  "sentiment_distribution": {
+    "Neutral": 46,
+    "Positive": 28,
+    "Negative": 10
+  },
+  "driver_distribution": {
+    "Brand Perception": 48,
+    "User Experience": 34,
+    "Responsible Business Practices": 2
+  },
+  "top_themes": [
+    {
+      "term": "equity",
+      "score": 1.891
+    },
+    {
+      "term": "naren",
+      "score": 1.885
+    },
+    {
+      "term": "market",
+      "score": 1.754
+    },
+    {
+      "term": "investment",
+      "score": 1.611
+    },
+    {
+      "term": "app",
+      "score": 1.576
+    },
+    {
+      "term": "long",
+      "score": 1.474
+    },
+    {
+      "term": "cio",
+      "score": 1.413
+    },
+    {
+      "term": "years",
+      "score": 1.403
+    },
+    {
+      "term": "sip",
+      "score": 1.397
+    },
+    {
+      "term": "asset",
+      "score": 1.375
+    }
+  ],
+  "llm_requested": false,
+  "llm_available": false,
+  "llm_failures": 0,
+  "llm_threshold": 0.58
+}
