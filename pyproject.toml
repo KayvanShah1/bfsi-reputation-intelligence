@@ -1,7 +1,37 @@
 [project]
 name = "bfsi-reputation-intelligence"
 version = "0.1.0"
-description = "Add your description here"
+description = "Turns raw BFSI digital mentions into explainable, consultant-ready reputation insights."
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+    "bri-engine",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.15.20"]
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 100
+quote-style = "double"
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 100
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "bri_engine",
+]
+
+[tool.uv.sources]
+bri-engine = { workspace = true }

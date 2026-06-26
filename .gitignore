@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data/runtime artifacts
+.tmp/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/llm_cache.json

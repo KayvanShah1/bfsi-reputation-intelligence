@@ -1,0 +1,29 @@
+[project]
+name = "bri-engine"
+version = "0.1.0"
+description = "Installable engine for the BFSI reputation intelligence workflow."
+authors = [
+    { name = "Kayvan Shah", email = "59110083+KayvanShah1@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "plotly>=6.8.0",
+    "pyarrow>=24.0.0",
+    "pydantic>=2.13.4",
+    "pydantic-ai-slim[openrouter]>=2.0.0",
+    "pydantic-settings>=2.14.2",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.58.0",
+]
+
+[project.scripts]
+bri-engine = "bri_engine.pipeline:main"
+bri-pipeline = "bri_engine.pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.10.12,<0.11.0"]
+build-backend = "uv_build"

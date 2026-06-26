@@ -1,0 +1,45 @@
+source_aliases:
+  BW BusinessWorld: BW BusinessWorld
+  CNBC TV18: CNBC-TV18
+  CNBC-TV18: CNBC-TV18
+  Economic Times: The Economic Times
+  ET: The Economic Times
+  ET Now: ET Now
+  Equitymaster.com: Equitymaster
+  Goodreturns: Goodreturns
+  Moneycontrol.com: Moneycontrol
+  NewsPointApp: NewsPoint
+  newspointapp: NewsPoint
+  Play Store: Play Store
+  Shiksha.com: Shiksha
+  The Hindu Business Line: The Hindu Business Line
+  Times of India: The Times of India
+  TOI: The Times of India
+
+domain_sources:
+  angelone.in: Angel One
+  business-standard.com: Business Standard
+  businesstoday.in: Business Today
+  businessworld.in: BW BusinessWorld
+  cnbctv18.com: CNBC-TV18
+  dailyhunt.in: Dailyhunt
+  economictimes.indiatimes.com: The Economic Times
+  equitymaster.com: Equitymaster
+  financialexpress.com: The Financial Express
+  fortuneindia.com: Fortune India
+  goodreturns.in: Goodreturns
+  google.com: Play Store
+  hindubusinessline.com: The Hindu Business Line
+  indiatimes.com: The Economic Times
+  linkedin.com: LinkedIn
+  money9live.com: Money9live
+  moneycontrol.com: Moneycontrol
+  msn.com: MSN India
+  news18.com: News18
+  obnews.co: Obnews
+  play.google.com: Play Store
+  reddit.com: Reddit
+  shiksha.com: Shiksha
+  timesofindia.indiatimes.com: The Times of India
+  upstox.com: Upstox
+  zeebiz.com: Zee Business
