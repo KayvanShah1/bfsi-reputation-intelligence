@@ -33,6 +33,7 @@ bri_engine/
 docs/
   assets/
     banner.png
+  DESIGN.md
   methodology.md
   scalability_approach.md
   references/
